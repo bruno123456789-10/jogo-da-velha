@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(45, 50, 55);
+}
+
+#jogo{
+    background-color: black;
+    display: block;
+    width: 462px;
+    height: 462px;
+    position: relative;
+}
+
+#winner{
+    background-color: rgb(133, 157, 224);
+    margin-top: 50px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+    color: rgb(45, 50, 55);
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#primeira, #segunda, #quarta, #quinta, #setima, #oitava{
+    margin-right: 1px;
+}
+
+#primeira, #segunda, #terceira, #quarta, #quinta, #sexta{
+    margin-bottom: 1px;
+}
+
+#segunda, #terceira, #quinta, #sexta, #oitava, #nona{
+    margin-left: 1px;
+}
+
+#quarta, #quinta, #sexta, #setima, #oitava, #nona{
+    margin-top: 1px;
+}
+
+#primeira, #segunda, #terceira, #quarta, #quinta, #sexta, #setima, #oitava, #nona{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-image: url(branco.png);
+}
